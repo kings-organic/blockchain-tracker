@@ -47,9 +47,9 @@ All actions are read-only, no transactions are sent.
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - your_contract.sol — minimal contract for deployment and verification  
-  - your_contract.sol — stateful contract for interaction  
-  - your_contract.sol — contract for read-only queries  
+  - contract.sol — minimal contract for deployment and verification  
+  - control.sol — stateful contract for interaction  
+  - storage.sol — contract for read-only queries  
 
 - package.json  
   Dependency configuration including Coinbase SDKs and Base GitHub repositories.
@@ -112,7 +112,7 @@ IMPLIED.
 ## Author
 Github:https://github.com/kings-organic
 
-Twitter:https://x.com/nikitengrigorii
+Twitter:https://x.com/Christi16204442
 
 Email:kings.organic_00@icloud.com
 
